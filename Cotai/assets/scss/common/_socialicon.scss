@@ -6,7 +6,7 @@ ul {
         margin: 0;
         margin: -6px;
         li {
-            margin: 6px;
+            margin: 12px;
             a {
                 width: 40px;
                 display: inline-block;
@@ -29,7 +29,7 @@ ul {
                 }
             }
         }
-        &.color-theme{
+        &.color-theme {
             li {
                 a {
                     border-color: $theme-color;
@@ -40,7 +40,6 @@ ul {
                         color: #ffffff;
                     }
                 }
-
             }
         }
         &.rn-lg-size {
@@ -55,24 +54,23 @@ ul {
             }
         }
         &.social-style--2 {
-            li{
+            li {
                 a {
                     border: 0 none;
                     width: 30px;
                     height: auto;
                     text-align: left;
                     line-height: inherit;
-                    font-size: 16px;
+                    font-size: 25px;
                 }
-                &:hover{
+                &:hover {
                     a {
                         background: transparent;
                         box-shadow: none;
-
                     }
                 }
             }
-            &.color-theme{
+            &.color-theme {
                 li {
                     a {
                         color: $theme-color;
@@ -80,10 +78,9 @@ ul {
                             color: currentColor;
                         }
                     }
-
                 }
             }
-            &.color-black{
+            &.color-black {
                 li {
                     a {
                         color: #1d1d24;
@@ -93,19 +90,8 @@ ul {
                             opacity: 1;
                         }
                     }
-
                 }
             }
         }
-
     }
 }
-
-
-
-
-
-
-
-
-

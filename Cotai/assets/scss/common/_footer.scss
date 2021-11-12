@@ -183,6 +183,9 @@ Footer Styles
 .copyright-text {
     position: absolute;
     bottom: -114px;
+    left: 0;
+    right: 0;
+    text-align: center;
     @media #{$sm-layout} {
         position: static;
         bottom: 0;
@@ -198,9 +201,4 @@ Footer Styles
         font-size: 14px;
         opacity: 0.75;
     }
-}
-
-.col-custom-footer {
-    flex: 100%;
-    max-width: 100%;
 }

@@ -140,9 +140,6 @@
     .thumbnail {
         position: relative;
         z-index: 2;
-        -moz-box-shadow: inset 0px 0px 3px 1px rgba(0, 0, 0, 1);
-        -webkit-box-shadow: inset 0px 0px 3px 1px rgba(0, 0, 0, 1);
-        box-shadow: inset 0px 0px 3px 1px rgba(0, 0, 0, 1);
         img {
             border-radius: 8px;
         }
@@ -241,4 +238,8 @@
             line-height: 30px;
         }
     }
+}
+
+.about-section-color {
+    background: rgb(1, 12, 24);
 }

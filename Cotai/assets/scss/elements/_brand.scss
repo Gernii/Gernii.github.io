@@ -21,7 +21,6 @@ ul {
             border-right: 1px solid rgba(0, 0, 0, 0.05);
             @extend %transition;
             cursor: pointer;
-            
             @media #{$sm-layout} {
                 border-top: 0 none;
                 border-right: 0 none;
@@ -39,18 +38,16 @@ ul {
                     height: auto;
                 }
             }
-            &:hover{
+            &:hover {
                 background-color: $theme-color;
                 transform: scale(1.1);
                 border-radius: 6px;
-                img{
+                img {
                     opacity: 1;
                     filter: brightness(0) invert(1);
                 }
             }
-            
         }
-
         &.branstyle--2 {
             li {
                 flex-basis: 33.33%;
@@ -59,15 +56,17 @@ ul {
     }
 }
 
-// .black-white-img{
-//     -webkit-filter: grayscale(100%) !important; /* Safari 6.0 - 9.0 */
-//   filter: grayscale(100%) !important;
-// }
-ul{
+.black-white-img-need {
+    -webkit-filter: grayscale(100%) !important;
+    /* Safari 6.0 - 9.0 */
+    filter: grayscale(100%) !important;
+}
+
+ul {
     &.brand-style-2 {
         list-style: none;
         margin: 0;
-        padding: 0; 
+        padding: 0;
         display: flex;
         justify-content: center;
         align-items: center;
@@ -106,20 +105,17 @@ ul{
                 max-height: initial;
                 max-width: 100%;
             }
-            &:hover{
+            &:hover {
                 transform: scale(1.1);
                 opacity: 1;
             }
         }
-        
     }
 }
 
-.react-parallax-content{
+.react-parallax-content {
     .brand-style-2 {
-        li{
-
-        }
+        li {}
         a {
             img {
                 filter: brightness(0) invert(1);
@@ -139,21 +135,12 @@ ul{
     margin-bottom: -117px;
     padding-top: 60px;
     background: #fff;
-    
     @media #{$sm-layout} {
         margin-bottom: 0;
         padding-bottom: 60px;
     }
-
     @media #{$md-layout} {
         margin-bottom: 0;
         padding-bottom: 60px;
     }
 }
-
-
-
-
-
-
-
