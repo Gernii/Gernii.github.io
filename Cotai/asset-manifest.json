@@ -1,12 +1,11 @@
 {
-    "files": {
-        "main.css": "./static/css/main.53bbb385.css",
-        "main.js": "./static/js/main.dab77e7b.js",
-        "main.css.map": "./static/css/main.53bbb385.css.map",
-        "main.js.map": "./static/js/main.dab77e7b.js.map",
-        "index.html": "./index.html",
-        "precache-manifest.890071d6cd0b26d283ca5b67a6856211.js": "./precache-manifest.890071d6cd0b26d283ca5b67a6856211.js",
-        "service-worker.js": "./service-worker.js",
-        "static/media/index.scss": "./static/media/slick.f97e3bbf.svg"
-    }
+  "files": {
+    "main.css": "./static/css/main.53bbb385.css",
+    "main.js": "./static/js/main.dab77e7b.js",
+    "main.css.map": "./static/css/main.53bbb385.css.map",
+    "main.js.map": "./static/js/main.dab77e7b.js.map",
+    "index.html": "./index.html",
+    "service-worker.js": "./service-worker.js",
+    "static/media/index.scss": "./static/media/slick.f97e3bbf.svg"
+  }
 }
