@@ -9,10 +9,13 @@ Mainmenu Area
             justify-content: flex-end;
             @extend %liststyle;
             flex-wrap: wrap;
-            > li {
+            >li {
                 margin: 0 15px;
                 position: relative;
-                > a {
+                .outsidelink {
+                    color: rgb(254, 143, 1) !important;
+                }
+                >a {
                     @extend %transition;
                     color: #c6c9d8;
                     font-size: 16px;
@@ -20,7 +23,7 @@ Mainmenu Area
                     padding: 20px 0;
                     display: inline-block;
                 }
-                > ul {
+                >ul {
                     &.submenu {
                         @extend %liststyle;
                         min-width: 240px;
@@ -32,7 +35,7 @@ Mainmenu Area
                         opacity: 0;
                         visibility: hidden;
                         background-color: #fff;
-                        box-shadow: 0 0 35px rgba(0,0,0,0.1);
+                        box-shadow: 0 0 35px rgba(0, 0, 0, 0.1);
                         text-align: left;
                         @extend %transition;
                         padding: 12px 0;
@@ -59,23 +62,22 @@ Mainmenu Area
                     }
                 }
                 &:hover {
-                    > ul {
+                    >ul {
                         &.submenu {
                             opacity: 1;
                             visibility: visible;
                         }
                     }
                 }
-
                 &:hover {
-                    > a {
+                    >a {
                         color: $theme-color;
                     }
                 }
-                &:first-child{
+                &:first-child {
                     margin-left: 0;
                 }
-                &:last-child{
+                &:last-child {
                     margin-right: 0;
                 }
             }
@@ -83,27 +85,26 @@ Mainmenu Area
     }
 }
 
-.humberger-menu{
-    span{
-        &.text-white{
+.humberger-menu {
+    span {
+        &.text-white {
             color: #c6c9d8 !important;
-            
         }
     }
 }
 
-.color-white{
+.color-white {
     .mainmenunav {
         ul {
             &.mainmenu {
                 @extend %liststyle;
-                > li {
-                    > a {
+                >li {
+                    >a {
                         color: #ffffff;
                     }
                     &:hover {
-                        > a {
-                            color: rgba(255,255,255,0.6);
+                        >a {
+                            color: rgba(255, 255, 255, 0.6);
                             @media #{$md-layout} {
                                 color: $theme-color;
                             }
@@ -118,17 +119,17 @@ Mainmenu Area
     }
 }
 
-.color-black{
+.color-black {
     .mainmenunav {
         ul {
             &.mainmenu {
                 @extend %liststyle;
-                > li {
-                    > a {
+                >li {
+                    >a {
                         color: rgba(29, 29, 36, 1);
                     }
                     &:hover {
-                        > a {
+                        >a {
                             color: $theme-color;
                         }
                     }
@@ -138,33 +139,20 @@ Mainmenu Area
     }
 }
 
-
-@media #{$lg-layout}{
+@media #{$lg-layout} {
     .header-style-two .humberger-menu span.text-white {
         color: #1d1d24 !important;
     }
 }
 
-@media #{$md-layout}{
-    .header-style-two .humberger-menu span.text-white{
+@media #{$md-layout} {
+    .header-style-two .humberger-menu span.text-white {
         color: #1d1d24 !important;
     }
 }
 
-@media #{$sm-layout}{
-    .header-style-two .humberger-menu span.text-white{
+@media #{$sm-layout} {
+    .header-style-two .humberger-menu span.text-white {
         color: #1d1d24 !important;
     }
 }
-
-
-
-
-
-
-
-
-
-
-
-
