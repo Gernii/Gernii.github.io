@@ -1,12 +1,12 @@
 {
   "files": {
-    "main.css": "Cotai/static/css/main.51dba36e.css",
-    "main.js": "Cotai/static/js/main.0e14b6d8.js",
-    "main.css.map": "Cotai/static/css/main.51dba36e.css.map",
-    "main.js.map": "Cotai/static/js/main.0e14b6d8.js.map",
-    "index.html": "Cotai/index.html",
-    "precache-manifest.7ba3048cbe32a49a4d5dad288a87092e.js": "Cotai/precache-manifest.7ba3048cbe32a49a4d5dad288a87092e.js",
-    "service-worker.js": "Cotai/service-worker.js",
-    "static/media/index.scss": "Cotai/static/media/slick.f97e3bbf.svg"
+    "main.css": "/Cotai/static/css/main.882d6934.css",
+    "main.js": "/Cotai/static/js/main.ad0e6029.js",
+    "main.css.map": "/Cotai/static/css/main.882d6934.css.map",
+    "main.js.map": "/Cotai/static/js/main.ad0e6029.js.map",
+    "index.html": "/Cotai/index.html",
+    "precache-manifest.95fe528784ff9a97c35a7bac70446756.js": "/Cotai/precache-manifest.95fe528784ff9a97c35a7bac70446756.js",
+    "service-worker.js": "/Cotai/service-worker.js",
+    "static/media/index.scss": "/Cotai/static/media/slick.f97e3bbf.svg"
   }
 }
