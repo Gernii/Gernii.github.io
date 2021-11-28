@@ -1,21 +1,21 @@
 {
   "files": {
-    "main.css": "/litahung.github.io/markmap/static/css/main.b3766879.chunk.css",
-    "main.js": "/litahung.github.io/markmap/static/js/main.885c53cb.chunk.js",
-    "main.js.map": "/litahung.github.io/markmap/static/js/main.885c53cb.chunk.js.map",
-    "runtime-main.js": "/litahung.github.io/markmap/static/js/runtime-main.4d4005eb.js",
-    "runtime-main.js.map": "/litahung.github.io/markmap/static/js/runtime-main.4d4005eb.js.map",
-    "static/js/2.a2b9bd66.chunk.js": "/litahung.github.io/markmap/static/js/2.a2b9bd66.chunk.js",
-    "static/js/2.a2b9bd66.chunk.js.map": "/litahung.github.io/markmap/static/js/2.a2b9bd66.chunk.js.map",
-    "index.html": "/litahung.github.io/markmap/index.html",
-    "static/css/main.b3766879.chunk.css.map": "/litahung.github.io/markmap/static/css/main.b3766879.chunk.css.map",
-    "static/js/2.a2b9bd66.chunk.js.LICENSE.txt": "/litahung.github.io/markmap/static/js/2.a2b9bd66.chunk.js.LICENSE.txt",
-    "static/media/convai.31d6cfe0.md": "/litahung.github.io/markmap/static/media/convai.31d6cfe0.md",
-    "static/media/nlu.e4ed9f70.md": "/litahung.github.io/markmap/static/media/nlu.e4ed9f70.md",
-    "static/media/speech.3f919d53.md": "/litahung.github.io/markmap/static/media/speech.3f919d53.md"
+    "main.css": "/markmap/static/css/main.b3766879.chunk.css",
+    "main.js": "/markmap/static/js/main.885c53cb.chunk.js",
+    "main.js.map": "/markmap/static/js/main.885c53cb.chunk.js.map",
+    "runtime-main.js": "/markmap/static/js/runtime-main.d3288e33.js",
+    "runtime-main.js.map": "/markmap/static/js/runtime-main.d3288e33.js.map",
+    "static/js/2.a2b9bd66.chunk.js": "/markmap/static/js/2.a2b9bd66.chunk.js",
+    "static/js/2.a2b9bd66.chunk.js.map": "/markmap/static/js/2.a2b9bd66.chunk.js.map",
+    "index.html": "/markmap/index.html",
+    "static/css/main.b3766879.chunk.css.map": "/markmap/static/css/main.b3766879.chunk.css.map",
+    "static/js/2.a2b9bd66.chunk.js.LICENSE.txt": "/markmap/static/js/2.a2b9bd66.chunk.js.LICENSE.txt",
+    "static/media/convai.31d6cfe0.md": "/markmap/static/media/convai.31d6cfe0.md",
+    "static/media/nlu.e4ed9f70.md": "/markmap/static/media/nlu.e4ed9f70.md",
+    "static/media/speech.3f919d53.md": "/markmap/static/media/speech.3f919d53.md"
   },
   "entrypoints": [
-    "static/js/runtime-main.4d4005eb.js",
+    "static/js/runtime-main.d3288e33.js",
     "static/js/2.a2b9bd66.chunk.js",
     "static/css/main.b3766879.chunk.css",
     "static/js/main.885c53cb.chunk.js"
