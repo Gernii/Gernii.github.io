@@ -67,6 +67,13 @@
                 border-bottom: 1px solid white;
                 transition: .4s ease;
             }
+            li .value {
+                padding-left: 0px;
+                transition: .2s ease;
+            }
+            li .checked {
+                padding-left: 10px;
+            }
         }
     }
 }
